@@ -1,0 +1,112 @@
+/*html, body /*Definições para manter o Rodapé absoluto*/
+html, body {
+	height: 100%;
+	}
+
+.main html /*Configurações Gerais da Página */
+{
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  min-height:100%;
+  position:relative;
+  width:800px;
+}
+
+
+
+.Fundo_Pagina /*Configurações do Fundo da Pagina*/
+{
+  background-color: #808080;
+}
+
+.Titulo_Pagina
+{
+  padding-top: 10pt;
+  padding-left: 170pt
+}
+
+.Menu_Topo /*Configurações do Menu Superior*/
+{
+  padding: 0px 150px 0px 180px;
+}
+.Menu_Btn ul li/*Configurações dos Botões do Menu superior*/
+{
+  display: inline-block;
+  padding-right: 20pt;
+  padding-left: 20pt;
+  background-color:#F0E68C;
+  font-size: 15pt;
+  font-style: normal;
+  font-family: monospace;
+}
+
+.Mural /* Feed de Noticias da Página*/
+{
+  background-color: white ;
+}
+
+.Topico_Grid
+{
+  padding-left: 200px;
+  padding-right: 200px;
+
+  padding-bottom: 30px;
+}
+.Topico_Config ul /*Topicos da Pagina*/
+{
+  list-style-type: none;
+  background-color: #FFFFFF;
+
+  border: 3px solid #000000;
+}
+.Topico_Titulo /*Configurções de Formatação do Titulo dos Topicos*/
+{
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 20pt;
+  font-family: monospace;
+  font-style: oblique;
+  text-decoration: underline;
+  color: #000000;
+}
+
+.Topico_SubTitulo /*Configurções de Formatação do Sub-Titulo dos Topicos*/
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14pt;
+  font-family: monospace;
+  color: #000000;
+}
+
+.Topico_Texto /*Configurções de Formatação do Texto dos Topicos*/
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12pt;
+  font-family: monospace;
+  color: #000000;
+}
+
+.Rodape li
+{
+	list-style-type: none;
+}
+.Rodape
+{
+  border-top: 3px solid #000000;
+  border-button: 3px solid #000000;
+  background-color:#F0E68C;
+
+  position:relative;
+  /*right: 0;
+  bottom:0;
+  width:100%;*/
+}
+
+.Rodape_Conteudo
+{
+	padding-left: 1000px;
+	font-size: 15px;
+	font-family: monospace;
+}
